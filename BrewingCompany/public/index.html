@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alcohol and Chill</title>
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:625px)"
+      href="phone.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/34af6e7286.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="navbarhome">
+      <video
+        autoplay
+        muted
+        loop
+        class="bgvideo"
+        src="bgvideo.mp4"
+        type="bgvideo/mp4"
+      ></video>
+      <div class="navbar">
+        <div id="logo">
+          <img src="logo.png" alt="Brewing Company" />
+        </div>
+        <ul>
+          <li class="item"><a href="#">Home</a></li>
+          <li class="item"><a href="#services">Services</a></li>
+          <li class="item"><a href="#brands">Brands</a></li>
+          <li class="item"><a href="#about">About</a></li>
+          <li class="item"><a href="#contactus">Contact Us</a></li>
+        </ul>
+      </div>
+      <section class="home" id="home">
+        <h1>Brewing Company</h1>
+        <h3>Get your favourite drink and chill tonight</h3>
+        <button class="btn" id="btn">Order now</button>
+      </section>
+    </div>
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+      <div class="servcontainer">
+        <div class="box" id="box1">
+          <img src="box1.png" alt="image" />
+          <h3>Alcohol Ordering</h3>
+          <p>
+            We take orders from customers through online and we will deliver at
+            your doorstep within 30 minutes.
+          </p>
+        </div>
+        <div class="box" id="box2">
+          <img src="box2.png" alt="image" />
+          <h3>Party Arrangement</h3>
+          <p>
+            We organize parties based on your requirements and at your specified
+            location and specified time.
+          </p>
+        </div>
+        <div class="box" id="box3">
+          <img src="box3-removebg-preview.png" alt="image" />
+          <h3>Catering</h3>
+          <p>
+            We also provide catering service as per request. Our team has been
+            awarded as best catering service providers in Bangalore.
+          </p>
+        </div>
+        <div class="box" id="box4">
+          <img src="box3-removebg-preview.png" alt="image" />
+          <h3>Catering</h3>
+          <p>
+            We also provide catering service as per request. Our team has been
+            awarded as best catering service providers in Bangalore.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="brand" id="brands">
+      <h2>Our Brands</h2>
+      <div class="brandscontainer">
+        <div class="brands" id="brand1">
+          <img src="brand1.png" alt="McDowells" />
+        </div>
+        <div class="brands" id="brand2">
+          <img src="brand2.png" alt="Kingfisher" />
+        </div>
+        <div class="brands" id="brand3">
+          <img src="brand3.png" alt="Johnnie Walker" />
+        </div>
+        <div class="brands" id="brand4">
+          <img src="brand4.png" alt="Black Dog" />
+        </div>
+        <div class="brands" id="brand5">
+          <img src="brand5.png" alt="" />
+        </div>
+        <div class="brands" id="brand6">
+          <img src="brand6.png" alt="Inchaffray" />
+        </div>
+        <div class="brands" id="brand7">
+          <img src="brand7.png" alt="Jack Daniels" />
+        </div>
+        <div class="brands" id="brand8">
+          <img src="brand8.png" alt="Magic Moment" />
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h2>About</h2>
+      <div class="aboutcontainer">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+          inventore veniam, itaque quae doloribus incidunt maxime enim neque
+          nobis labore. Sed voluptates iure explicabo aspernatur blanditiis
+          ipsam accusantium architecto suscipit. Dolore pariatur facilis dolor
+          consequatur cumque similique perspiciatis dolorum qui?Lorem ipsum
+          dolor sit, amet consectetur adipisicing elit. Eveniet repellat, qui
+          cumque illum nesciunt, provident corrupti reiciendis nam voluptatem
+          voluptatibus labore minus, fugiat aut quo. Maxime vitae veniam ipsam
+          exercitationem?
+        </p>
+      </div>
+    </section>
+    <section class="contactus" id="contactus">
+      <h2>Contact Us</h2>
+      <div class="contactuscontainer">
+        <form action="backend.php" id="contactusform">
+          <input
+            type="text"
+            name="name"
+            class="formelement"
+            id="username"
+            required
+            placeholder="Enter your name"
+          />
+          <input
+            type="email"
+            name="useremail"
+            class="formelement"
+            id="email"
+            required
+            placeholder="Enter your Email"
+          />
+          <textarea
+            name="msg"
+            class="formelements"
+            id="usermessage"
+            cols="30"
+            rows="10"
+            required
+            placeholder="Enter your message"
+          ></textarea>
+        </form>
+        <button class="formbtn" id="formbtn" type="submit">Submit</button>
+      </div>
+    </section>
+    <footer class="end">
+      <div class="row">
+        <div class="col1">
+          <img src="logo.png" alt="Brewing Company" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            expedita veritatis totam aliquam dolorum, earum aliquid dolores quas
+            quam aspernatur alias, odio minus? Dolorum, quis!
+          </p>
+        </div>
+        <div class="col2">
+          <h3>Office</h3>
+          <p>TC Palya</p>
+          <p>KR Puram, Bangalore</p>
+          <p>Karnataka, PIN 560036, India</p>
+          <p id="email-id">brewingcompany@gmail.com</p>
+          <h4>+91 973 - 862 - 8262</h4>
+        </div>
+        <div class="col3">
+          <h3>Newsletter</h3>
+          <form class="lastform" action="">
+            <i class="fa-solid fa-envelope"></i>
+            <input
+              type="email"
+              name="fmail"
+              id="fmail"
+              placeholder="Enter your email"
+              required
+            />
+          </form>
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      let btn = document.getElementById("btn");
+      btn.addEventListener("click", function run(e) {
+        e.preventDefault();
+        swal.fire({
+          title: "Warning",
+          text: "You can order only if you are 18+",
+          icon: "warning",
+        });
+      });
+
+      let formbtn = document.getElementById("formbtn");
+      formbtn.addEventListener("click", function run(e) {
+        e.preventDefault();
+
+        const username = document.getElementById("username").value;
+        const email = document.getElementById("email").value;
+        const usermessage = document.getElementById("usermessage").value;
+
+        swal.fire("Submitted successfully");
+
+        let nullmessage = document.getElementById("usermessage");
+        nullmessage.value = "";
+        let inputs = document.querySelectorAll("input");
+        inputs.forEach((input) => (input.value = ""));
+      });
+    </script>
+  </body>
+</html>
